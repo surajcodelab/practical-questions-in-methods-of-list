@@ -1,0 +1,83 @@
+# ============practice queations=============
+
+cars=["bmw","mahindra","suzuki","rolls royce","bentley","aston martin","tata","audi","mustang"]
+
+# 1.aapend
+
+cars.append("ferrari")
+print(cars)
+
+# 2. insert
+
+cars.insert(3,"porsche")
+print(cars)    
+
+# 3.Clear
+
+cars.clear()
+print(cars)
+
+# 4.sort
+
+cars=['bmw', 'mahindra', 'suzuki', 'porsche', 'rolls royce', 'bentley', 'aston martin', 'tata', 'audi', 'mustang', 'ferrari']
+cars.sort()
+print(cars)
+
+# 5.Remove
+
+cars.remove("audi")
+print(cars)
+
+# 6.Index
+l=cars.index("mustang")
+print(l)
+
+# 7.Extend
+
+cars.extend(["tesla","nissan"])
+print(cars)
+
+# 8.pop
+
+cars.pop()
+print(cars)
+
+# 9.Count
+
+l1=cars.count("bmw")
+print(l1)
+
+# 10.append multiple
+
+cars.append("jaguar")
+cars.append("fiat")
+print(cars)
+
+# 11.insert multiple
+
+cars.insert(2,["volvo","honda"])
+print(cars)
+
+# 13. Sort desending
+
+cars=["bmw","mahindra","suzuki","rolls royce","bentley","aston martin","tata","audi","mustang"]
+cars.sort(reverse=True)
+print(cars)
+
+# 14.remove all occurence
+
+cars.remove("bmw")
+print(cars)
+
+# 15.find last Index
+
+cars=["bmw","mahindra","suzuki","rolls royce","bentley","aston martin","tata","audi","mustang"]
+n1=cars.index("mustang")
+print(n1)
+
+
+# 16. extend with condition
+
+if "bmw" in cars:
+    cars.extend(["ferrari", "lambo"])
+print(cars)
