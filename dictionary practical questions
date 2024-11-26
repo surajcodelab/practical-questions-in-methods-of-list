@@ -1,0 +1,268 @@
+
+#1....create a dictionary to store the names and ages of three people
+# poeple={
+#     1:{
+#         "name":"suraj",
+#         "age":21
+#     },
+#     2:{
+#         "name":"shyam",
+#         "age":22
+#     },
+#     3:{
+#         "name":"vaibhav",
+#         "age":27
+#     }
+# }
+# print(poeple)
+
+#access the value
+#2....given a dictionary access the value associated with a specific key
+# cars={
+#     "model":"mahindra",
+#     "name":"thar",
+#     "price":"21lakhs"
+# }
+# print(cars["name"],["price"])
+
+#3....add a new key and value pair
+# add new person to the dictionry
+
+# poeple={
+#     1:{
+#         "name":"suraj",
+#         "age":21
+#     },
+#     2:{
+#         "name":"shyam",
+#         "age":22
+#     },
+#     3:{
+#         "name":"vaibhav",
+#         "age":27
+#     }
+# }
+# poeple[4]=["name"],["kiran"]
+# print(poeple)
+
+#4....update a value
+#update a age of specific person in the dictionary
+
+# poeple={
+#     1:{
+#         "name":"suraj",
+#         "age":21
+#     },
+#     2:{
+#         "name":"shyam",
+#         "age":22
+#     },
+#     3:{
+#         "name":"vaibhav",
+#         "age":27
+#     }
+# }
+# poeple[2]["name"]="harish"
+# print(poeple)
+
+#5....remove a key value pair
+#remove a person from the dictionary
+
+# person={
+#     "name":"sarvesh",
+#     "age":20
+# }
+# person.pop("name")
+# print(person)
+
+
+# 6...check if key exist
+# check if the specific person is in the dictionary
+
+# student={
+#     "name":"gaurav",
+#     "age":23
+# }
+# print(student["name"])
+
+#7..Iterate Through keys
+#print all the names in the dictionary
+
+
+# students={
+#     1:{
+#         "names":"suraj",
+#         "age":21
+#     },
+#      2:{
+#         "names":"sarvesh",
+#         "age":20
+#     },
+#       3:{
+#         "names":"gaurav",
+#         "age":25
+#     }
+# }
+# print(students[1]["names"])
+# print(students[2]["names"])
+# print(students[3]["names"])
+
+
+
+#8....Iterate Through values
+#print all the ages in the dictionary
+
+# students={
+#     1:{
+#         "names":"suraj",
+#         "age":21
+#     },
+#      2:{
+#         "names":"sarvesh",
+#         "age":20
+#     },
+#       3:{
+#         "names":"gaurav",
+#         "age":25
+#     }
+# }
+# print(students[1]["age"])
+# print(students[2]["age"])
+# print(students[3]["age"])
+
+
+#9.....Iterate Through Values
+#print all the names with their ages
+
+# students={
+#     1:{
+#         "names":"suraj",
+#         "age":21
+#     },
+#      2:{
+#         "names":"sarvesh",
+#         "age":20
+#     },
+#       3:{
+#         "names":"gaurav",
+#         "age":25
+#     }
+# }
+# print(students[1].values())
+# print(students[2].values())
+# print(students[3].values())
+
+
+#10....merge to dictionaries
+# merge two dict into one
+
+
+# students={
+#     "name":"suraj",
+#     "age":21
+# }
+
+# teacher={
+#     "city":"pune",
+#     "batch_no":26
+# }
+# students.update(teacher)
+# print(students)
+
+#11....count occurence
+# given a list of fruits, count the occurence of each fruits using a dictionary
+
+
+# fruits = ["apple", "banana", "apple", "orange", "banana", "banana", "apple"]
+
+# fruit_count = {}
+
+# for fruit in fruits:
+   
+#     if fruit in fruit_count:
+#         fruit_count[fruit] += 1
+  
+#     else:
+#         fruit_count[fruit] = 1
+
+# print(fruit_count)
+
+
+#12....find maximum values
+#.. find the person with the maximum age in the dictionary
+
+
+# people_ages = {
+#     "suraj": 30,
+#     "sarvesh": 25,
+#     "rohit": 35,
+#     "hardik": 40,
+# }
+# oldest_person = max(people_ages, key=people_ages.get)
+
+# max_age = people_ages[oldest_person]
+
+# print(f"The person with the maximum age is {oldest_person}, who is {max_age} years old.")
+
+
+
+    #13.....iterate through key values pairs
+    #...print all names with thier ages
+
+# students = {
+#     1: {
+#         "names": "suraj",
+#         "age": 21
+#     },
+#     2: {
+#         "names": "sarvesh",
+#         "age": 20
+#     },
+#     3: {
+#         "names": "gaurav",
+#         "age": 25
+#     }
+# }
+
+# for key, value in students.items():
+#     name = value["names"]
+#     age = value["age"]
+#     print(f"Name: {name}, Age: {age}")
+
+
+#13...create a dictionary from two list
+#create a dictionary from two list one for names one for ages;
+
+# names = ['suraj', 'swami', 'somnath']
+# ages = [25, 30, 35]
+
+# person_dict = dict(zip(names, ages))
+
+# print(person_dict)
+
+
+#14.....get keys as a list
+#return the keys of a dictionary as a list
+
+# my_dict = {'a': 1, 'b': 2, 'c': 3}
+# keys_list = list(my_dict.keys())
+# print(keys_list)
+
+
+#15..... get values as alist 
+#return the values of a dictionary as a list
+
+
+# my_dict = {'a': 1, 'b': 2, 'c': 3}
+# values_list = list(my_dict.values())
+# print(values_list)
+
+
+
+
+
+
+
+
+
+
